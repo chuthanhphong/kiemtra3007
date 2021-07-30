@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="@{phone/create}">Create Phone</a>
+<table>
+    <caption>List Product</caption>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Color</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>Edit</th>
+        <th>Delete</th>
+
+    </tr>
+    <tr th:each="phone:${phone}">
+        <td th:text="${phone.name}"></td>
+        <td th:text="${phone.price}"></td>
+        <td th:text="${phone.quantity}"></td>
+        <td th:text="${phone.color}"></td>
+        <td th:text="${phone.category.name}"></td>
+        <td><a th:href="@{/products/{id}/edit(id=${phone.id})}">edit</a></td>
+        <td><a th:href="@{/products/{id}/delete(id=${phone.id})}">delete</a></td>
+    </tr>
+</table>
+</body>
+</html>

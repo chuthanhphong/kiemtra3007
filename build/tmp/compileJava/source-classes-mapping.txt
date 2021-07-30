@@ -1,0 +1,26 @@
+com/codegym/service/Category/ICategoryService.java
+ com.codegym.service.Category.ICategoryService
+com/codegym/service/Phone/IPhoneService.java
+ com.codegym.service.Phone.IPhoneService
+com/codegym/service/Phone/PhoneService.java
+ com.codegym.service.Phone.PhoneService
+com/codegym/controller/PhoneController.java
+ com.codegym.controller.PhoneController
+com/codegym/model/Category.java
+ com.codegym.model.Category
+com/codegym/config/AppInit.java
+ com.codegym.config.AppInit
+com/codegym/repository/ICategoryRepository.java
+ com.codegym.repository.ICategoryRepository
+com/codegym/config/AppConfig.java
+ com.codegym.config.AppConfig
+com/codegym/controller/CategoryController.java
+ com.codegym.controller.CategoryController
+com/codegym/repository/IPhoneRepository.java
+ com.codegym.repository.IPhoneRepository
+com/codegym/service/IGeneralService.java
+ com.codegym.service.IGeneralService
+com/codegym/service/Category/CategoryService.java
+ com.codegym.service.Category.CategoryService
+com/codegym/model/Phone.java
+ com.codegym.model.Phone
